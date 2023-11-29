@@ -1,0 +1,13 @@
+﻿using System.Security.Cryptography.X509Certificates;
+using Microsoft.AspNetCore.Mvc;
+
+namespace RealEstate_Dapper_UI.ViewComponents.HomePage
+{
+    public class _DefaultScriptComponentPartial:ViewComponent
+    {
+            public IViewComponentResult Invoke()
+            {
+                return View();
+            }
+    }
+}
